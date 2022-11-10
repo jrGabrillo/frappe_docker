@@ -23,7 +23,7 @@ RUN bench setup requirements \
 FROM assets_builder as erpnext_assets
 
 ARG ERPNEXT_VERSION
-ARG ERPNEXT_REPO=https://github.com/frappe/erpnext
+ARG ERPNEXT_REPO=https://jrGabrillo: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@github.com/jrGabrillo/erpnext
 RUN bench get-app --branch=${ERPNEXT_VERSION} --skip-assets --resolve-deps erpnext ${ERPNEXT_REPO}\
     && if [ -z "${ERPNEXT_VERSION##*v14*}" ] || [ "$ERPNEXT_VERSION" = "develop" ]; then \
         export BUILD_OPTS="--production"; \

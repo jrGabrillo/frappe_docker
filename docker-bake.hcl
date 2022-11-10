@@ -18,7 +18,7 @@ variable "FRAPPE_REPO" {
 }
 
 variable "ERPNEXT_REPO" {
-    default = "https://github.com/frappe/erpnext"
+    default = "https://jrGabrillo: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@github.com/jrGabrillo/erpnext"
 }
 
 variable "BENCH_REPO" {

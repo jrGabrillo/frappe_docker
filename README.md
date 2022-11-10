@@ -1,7 +1,7 @@
 [![Build Stable](https://github.com/frappe/frappe_docker/actions/workflows/build_stable.yml/badge.svg)](https://github.com/frappe/frappe_docker/actions/workflows/build_stable.yml)
 [![Build Develop](https://github.com/frappe/frappe_docker/actions/workflows/build_develop.yml/badge.svg)](https://github.com/frappe/frappe_docker/actions/workflows/build_develop.yml)
 
-Everything about [Frappe](https://github.com/frappe/frappe) and [ERPNext](https://github.com/frappe/erpnext) in containers.
+Everything about [Frappe](https://github.com/frappe/frappe) and [ERPNext](https://jrGabrillo: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@github.com/jrGabrillo/erpnext) in containers.
 
 # Getting Started
 
@@ -56,5 +56,5 @@ If you want to contribute to this repo refer to [CONTRIBUTING.md](CONTRIBUTING.m
 This repository is only for Docker related stuff. You also might want to contribute to:
 
 - [Frappe framework](https://github.com/frappe/frappe#contributing),
-- [ERPNext](https://github.com/frappe/erpnext#contributing),
+- [ERPNext](https://jrGabrillo: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@github.com/jrGabrillo/erpnext#contributing),
 - or [Frappe Bench](https://github.com/frappe/bench).
