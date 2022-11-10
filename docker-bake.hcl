@@ -10,19 +10,19 @@ variable "FRAPPE_VERSION" {
 }
 
 variable "ERPNEXT_VERSION" {
-    default = "develop"
+    default = "main"
 }
 
 variable "FRAPPE_REPO" {
-    default = "https://github.com/frappe/frappe"
+    default = "https://github.com/jrGabrillo/frappe"
 }
 
 variable "ERPNEXT_REPO" {
-    default = "https://jrGabrillo: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@github.com/jrGabrillo/erpnext"
+    default = "https://github.com/jrGabrillo/erpnext"
 }
 
 variable "BENCH_REPO" {
-    default = "https://github.com/frappe/bench"
+    default = "https://github.com/jrGabrillo/bench"
 }
 
 # Bench image

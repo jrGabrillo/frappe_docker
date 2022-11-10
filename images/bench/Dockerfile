@@ -2,7 +2,7 @@ FROM debian:bullseye-slim as bench
 
 LABEL author=frappé
 
-ARG GIT_REPO=https://github.com/frappe/bench.git
+ARG GIT_REPO=https://github.com/jrGabrillo/bench.git
 ARG GIT_BRANCH=develop
 
 RUN apt-get update \
